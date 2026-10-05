@@ -1,0 +1,20 @@
+{
+  "id": 198,
+  "title": "Crop Storage Guardian Animal Intrusion Alarm",
+  "repository_slug": "crop-storage-guardian-animal-intrusion-alarm",
+  "category": "Smart Agriculture",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "RS-485",
+  "components": [
+    "load cell",
+    "water pump"
+  ],
+  "scope": "Build a smart agriculture prototype that uses load cell, water pump to detect and report animal movement. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Animal Intrusion Alarm demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/crop-storage-guardian-animal-intrusion-alarm/crop-storage-guardian-animal-intrusion-alarm.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
